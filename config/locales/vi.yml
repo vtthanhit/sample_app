@@ -1,0 +1,23 @@
+vi:
+  global:
+    menu:
+      home: "Trang chủ"
+      help: "Trang trợ giúp"
+      login: "Đăng nhập"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
+    title: "Ứng dụng mẫu Ruby on Rails"
+    text_logo: "Ứng dụng mẫu"
+
+  pages:
+    help:
+      content_help: "Nhận trợ giúp về Ruby on Rails tại"
+      link_help_page: "trang trợ giúp Ruby on Rails"
+      content_book: "Để nhận trợ giúp về những ứng dụng mẫu của Rails, hãy xem"
+      link_book_page: "sách Ruby on Rails"
+    home:
+      header: "Chào mừng đến với Ứng Dụng Mẫu"
+      content_home_header: "Đây là trang chủ của"
+      content_home_header_2: "ứng dụng mẫu."
+      content_link_home: "hướng dẫn Ruby on Rails"
+      sign_up: "Đăng ký ngay!"
