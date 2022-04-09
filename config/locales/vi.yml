@@ -26,6 +26,12 @@ vi:
       vi: "Tiếng Việt"
     title: "Ứng dụng mẫu Ruby on Rails"
     text_logo: "Ứng dụng mẫu"
+    the_form_contains: "Biểu mẫu chứa"
+    error: "lỗi"
+
+  users:
+    create:
+      success: "Tạo tài khoản thành công!"
 
   pages:
     help:
@@ -39,3 +45,9 @@ vi:
       content_home_header_2: "ứng dụng mẫu."
       content_link_home: "hướng dẫn Ruby on Rails"
       sign_up: "Đăng ký ngay!"
+    user:
+      title: "Thông tin tài khoản"
+      not_found: "Không tìm thấy người dùng"
+    signup:
+      title: "Đăng ký tài khoản"
+      create_my_account: "Tạo tài khoản"
