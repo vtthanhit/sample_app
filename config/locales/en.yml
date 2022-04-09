@@ -1,4 +1,21 @@
 en:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "Email is required!"
+              invalid: "Email is invalid!"
+              taken: "Email has already been taken!"
+            name:
+              blank: "Name is required!"
+            password:
+              blank: "Pasword is required!"
+              too_short: "Password minimum is %{count} characters!"
+              too_long: "Password maximum is %{count} characters!"
+            password_confirmation:
+              confirmation: "Paswords doesn't match!"
   global:
     menu:
       home: "Home"

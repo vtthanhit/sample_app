@@ -1,4 +1,22 @@
 vi:
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "Email là bắt buộc!"
+              invalid: "Email không hợp lệ!"
+              taken: "Email đã được sử dụng!"
+            name:
+              blank: "Tên là bắt buộc!"
+            password:
+              blank: "Mật khẩu là bắt buộc!"
+              too_short: "Mật khẩu phải tối thiểu %{count} ký tự!"
+              too_long: "Mật khẩu phải tối đa %{count} ký tự!"
+            password_confirmation:
+              confirmation: "Mật khẩu không trùng khớp!"
+
   global:
     menu:
       home: "Trang chủ"
