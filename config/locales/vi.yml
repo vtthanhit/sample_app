@@ -22,6 +22,10 @@ vi:
       home: "Trang chủ"
       help: "Trang trợ giúp"
       login: "Đăng nhập"
+      account: "Tài khoản"
+      profile: "Hồ sơ tài khoản"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
     title: "Ứng dụng mẫu Ruby on Rails"
@@ -51,3 +55,12 @@ vi:
     signup:
       title: "Đăng ký tài khoản"
       create_my_account: "Tạo tài khoản"
+    signin:
+      header: "Đăng nhập"
+      login_button: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+      success: "Đăng nhập thành công!"
+      danger: "Đăng nhập không thành công! Vui lòng kiểm tra email và mật khẩu."
+    user:
+      show: "Thông tin tài khoản"
