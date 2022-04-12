@@ -1,0 +1,14 @@
+<% provide :title, t("global.menu.login") %>
+<h1><%= t "pages.signin.header" %></h1>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for :session, url: login_path do |f|%>
+      <%= f.label :email %>
+      <%= f.email_field :email, class: "form-control" %>
+      <%= f.label :password %>
+      <%= f.password_field :password, class: "form-control" %>
+      <%= f.submit t("pages.signin.login_button"), class: "btn btn-primary" %>
+    <% end %>
+    <p><%= t "pages.signin.new_user" %><%= link_to t("pages.signin.sign_up_now"), signup_path %></p>
+  </div>
+</div>
