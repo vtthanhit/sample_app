@@ -16,6 +16,7 @@ en:
               too_long: "Password maximum is %{count} characters!"
             password_confirmation:
               confirmation: "Paswords doesn't match!"
+
   global:
     menu:
       home: "Home"
@@ -25,7 +26,12 @@ en:
       vi: "Vietnamese"
     title: "Ruby On Rails Tutorial Sample App"
     text_logo: "Sample app"
+    the_form_contains: "The form contains"
+    error: "error"
 
+  users:
+    create:
+      success: "Create Account Success!"
 
   pages:
     help:
@@ -39,3 +45,9 @@ en:
       content_home_header_2: "sample application."
       content_link_home: "Ruby on Rails Tutorial"
       sign_up: "Sign up now!"
+    user:
+      title: "Show user"
+      not_found: "User not found"
+    signup:
+      title: "Sign up"
+      create_my_account: "Create my account"
