@@ -62,5 +62,7 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       success: "Đăng nhập thành công!"
       danger: "Đăng nhập không thành công! Vui lòng kiểm tra email và mật khẩu."
+      not_exist_email: "Email không tồn tại"
+      remember: "Ghi nhớ trên máy tính này"
     user:
       show: "Thông tin tài khoản"
