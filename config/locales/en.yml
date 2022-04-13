@@ -62,5 +62,7 @@ en:
       sign_up_now: "Sign Up Now!"
       success: "Login Successful!"
       danger: "Login unsuccessful! Please check your email and password."
+      not_exist_email: "Email doesn't exits"
+      remember: "Remember me on this computer"
     user:
       show: "Show user"
