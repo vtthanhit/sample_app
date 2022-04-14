@@ -4,14 +4,16 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    if @user&.authenticate params[:session][:password]
+    return unless @user&.authenticate params[:session][:password]
+
+    if @user.activated
       log_in @user
       params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
       flash[:success] = t "pages.signin.success"
       redirect_back_or @user
     else
-      flash.now[:danger] = t "pages.signin.danger"
-      render :new
+      flash[:warning] = t "pages.signin.warning"
+      redirect_to static_pages_home_path
     end
   end
 

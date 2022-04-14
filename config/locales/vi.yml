@@ -33,9 +33,15 @@ vi:
     text_logo: "Ứng dụng mẫu"
     the_form_contains: "Biểu mẫu chứa"
     error: "lỗi"
+    mailer:
+      subject: "Kích hoạt tài khoản"
+      greeting: "Xin chào"
+      content: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      btn_active: "Kích hoạt"
 
   users:
     create:
+      info: "Hãy kiểm tra email để kích hoạt tài khoản của bạn."
       success: "Tạo tài khoản thành công!"
     update:
       success: "Cập nhật thông tin thành công!"
@@ -44,6 +50,10 @@ vi:
       success: "Xóa tài khoản thành công!"
       danger: "Xóa tài khoản thất bại!"
 
+  account_activations:
+    edit:
+      success: "Tài khoản đã được kích hoạt!"
+      danger: "Liên kết kích hoạt không hợp lệ"
   pages:
     help:
       content_help: "Nhận trợ giúp về Ruby on Rails tại"
@@ -72,6 +82,7 @@ vi:
       sign_up_now: "Đăng ký ngay!"
       success: "Đăng nhập thành công!"
       danger: "Đăng nhập không thành công! Vui lòng kiểm tra email và mật khẩu."
+      warning: "Tài khoản chưa được kích hoạt. Hãy kiểm tra email của bạn để biết liên kết kích hoạt."
       not_exist_email: "Email không tồn tại"
       remember: "Ghi nhớ trên máy tính này"
       please_login: "Vui lòng đăng nhập."
