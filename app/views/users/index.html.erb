@@ -1,0 +1,7 @@
+<% provide :title, t("pages.user.all_user") %>
+<h1><%= t "pages.user.all_user" %></h1>
+<ul class="users">
+  <%= render @users %>
+</ul>
+
+<%= raw pagy_nav(@pagy) %>
