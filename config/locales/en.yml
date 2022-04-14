@@ -25,6 +25,7 @@ en:
       account: "Account"
       profile: "Profile"
       settings: "Settings"
+      users: "Users"
       logout: "Log out"
       en: "English"
       vi: "Vietnamese"
@@ -36,6 +37,12 @@ en:
   users:
     create:
       success: "Create Account Success!"
+    update:
+      success: "Profile updated!"
+      danger: "Updated fail!"
+    destroy:
+      success: "User deleted!"
+      danger: "Deleted fail!"
 
   pages:
     help:
@@ -52,6 +59,9 @@ en:
     user:
       title: "Show user"
       not_found: "User not found"
+      all_user: "All users"
+      btn_delete: "Delete"
+      confirm_delete: "You sure?"
     signup:
       title: "Sign up"
       create_my_account: "Create my account"
@@ -64,5 +74,7 @@ en:
       danger: "Login unsuccessful! Please check your email and password."
       not_exist_email: "Email doesn't exits"
       remember: "Remember me on this computer"
-    user:
-      show: "Show user"
+      please_login: "Please log in."
+    edit_user:
+      title: "Update your profile"
+      btn_save: "Save changes"

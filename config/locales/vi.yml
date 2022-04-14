@@ -25,6 +25,7 @@ vi:
       account: "Tài khoản"
       profile: "Hồ sơ tài khoản"
       settings: "Cài đặt"
+      users: "Danh sách user"
       logout: "Đăng xuất"
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
@@ -36,6 +37,12 @@ vi:
   users:
     create:
       success: "Tạo tài khoản thành công!"
+    update:
+      success: "Cập nhật thông tin thành công!"
+      danger: "Cập nhật thất bại!"
+    destroy:
+      success: "Xóa tài khoản thành công!"
+      danger: "Xóa tài khoản thất bại!"
 
   pages:
     help:
@@ -52,6 +59,9 @@ vi:
     user:
       title: "Thông tin tài khoản"
       not_found: "Không tìm thấy người dùng"
+      all_user: "Tất cả người dùng"
+      btn_delete: "Xóa"
+      confirm_delete: "Bạn chắc chắn muốn xóa?"
     signup:
       title: "Đăng ký tài khoản"
       create_my_account: "Tạo tài khoản"
@@ -64,5 +74,7 @@ vi:
       danger: "Đăng nhập không thành công! Vui lòng kiểm tra email và mật khẩu."
       not_exist_email: "Email không tồn tại"
       remember: "Ghi nhớ trên máy tính này"
-    user:
-      show: "Thông tin tài khoản"
+      please_login: "Vui lòng đăng nhập."
+    edit_user:
+      title: "Cập nhật thông tin tài khoản"
+      btn_save: "Lưu các thay đổi"
