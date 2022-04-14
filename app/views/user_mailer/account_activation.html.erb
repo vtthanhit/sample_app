@@ -1,0 +1,8 @@
+<h1><%= t "global.title" %></h1>
+
+<p><%= t "global.mailer.greeting" %> <%= @user.name %>,</p>
+<p>
+  <%= t "global.mailer.content" %>
+</p>
+
+<%= link_to t("global.mailer.btn_active"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

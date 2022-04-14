@@ -8,6 +8,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "faker", "2.1.2"
+gem "figaro", "~> 1.1", ">= 1.1.1"
 gem "jbuilder", "~> 2.7"
 gem "pagy", "~> 5.10", ">= 5.10.1"
 gem "puma", "~> 4.1"

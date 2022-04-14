@@ -33,9 +33,15 @@ en:
     text_logo: "Sample app"
     the_form_contains: "The form contains"
     error: "error"
+    mailer:
+      subject: "Account activation"
+      greeting: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      btn_active: "Active"
 
   users:
     create:
+      info: "Please check your email to activate your account."
       success: "Create Account Success!"
     update:
       success: "Profile updated!"
@@ -43,6 +49,11 @@ en:
     destroy:
       success: "User deleted!"
       danger: "Deleted fail!"
+
+  account_activations:
+    edit:
+      success: "Account activated!"
+      danger: "Invalid activation link"
 
   pages:
     help:
@@ -72,6 +83,7 @@ en:
       sign_up_now: "Sign Up Now!"
       success: "Login Successful!"
       danger: "Login unsuccessful! Please check your email and password."
+      warning: "Account not activated. Check your email for the activation link."
       not_exist_email: "Email doesn't exits"
       remember: "Remember me on this computer"
       please_login: "Please log in."
