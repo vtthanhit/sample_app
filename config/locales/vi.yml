@@ -34,10 +34,18 @@ vi:
     the_form_contains: "Biểu mẫu chứa"
     error: "lỗi"
     mailer:
-      subject: "Kích hoạt tài khoản"
+      subject_active: "Kích hoạt tài khoản"
+      subject_password_reset: "Đặt lại mật khẩu"
       greeting: "Xin chào"
-      content: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
-      btn_active: "Kích hoạt"
+      content_active: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+      title_password_reset: "Đặt lại mật khẩu"
+      content_password_reset: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      skip_password_reset: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ như cũ."
+      btn_password_reset: "Đặt lại mật khẩu"
+      link_time: "Liên kết này sẽ hết hạn sau hai giờ."
+    button:
+      submit: "Gửi"
+      active: "Kích hoạt"
 
   users:
     create:
@@ -54,6 +62,13 @@ vi:
     edit:
       success: "Tài khoản đã được kích hoạt!"
       danger: "Liên kết kích hoạt không hợp lệ"
+
+  password_resets:
+    update:
+      success: "Cập nhật mật khẩu thành công."
+      danger: "Cập nhật mật khẩu thật bại, vui lòng thử lại."
+      danger_password: "Vui lòng nhập mật khẩu"
+
   pages:
     help:
       content_help: "Nhận trợ giúp về Ruby on Rails tại"
@@ -89,3 +104,10 @@ vi:
     edit_user:
       title: "Cập nhật thông tin tài khoản"
       btn_save: "Lưu các thay đổi"
+    reset_password:
+      forgot: "Quên mật khẩu"
+      title: "Đặt lại mật khẩu"
+      reset_password_info: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      btn_update_password: "Cập nhật mật khẩu"
+      expired: "Đặt lại mật khẩu đã hết hạn."
+      errors: "Có lỗi xảy ra!"
