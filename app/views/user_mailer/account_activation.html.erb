@@ -2,7 +2,7 @@
 
 <p><%= t "global.mailer.greeting" %> <%= @user.name %>,</p>
 <p>
-  <%= t "global.mailer.content" %>
+  <%= t "global.mailer.content_active" %>
 </p>
 
-<%= link_to t("global.mailer.btn_active"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
+<%= link_to t("global.button.active"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
