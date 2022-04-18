@@ -47,6 +47,18 @@ class UsersController < ApplicationController
     redirect_to users_path
   end
 
+  def following
+    @title = t "pages.user.following_title"
+    @pagy, @users = pagy(@user.following, items: Settings.pagy_items_10)
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "pages.user.follower_title"
+    @pagy, @users = pagy(@user.followers, items: Settings.pagy_items_10)
+    render "show_follow"
+  end
+
   private
   def user_params
     params

@@ -48,6 +48,8 @@ vi:
       active: "Kích hoạt"
       delete: "Xóa"
       post: "Đăng"
+      follow: "Theo dõi"
+      unfollow: "Bỏ theo dõi"
     alert:
       image_max_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
 
@@ -96,9 +98,14 @@ vi:
     user:
       title: "Thông tin tài khoản"
       not_found: "Không tìm thấy người dùng"
+      relation_not_found: "Không tìm thấy mối quan hệ"
       all_user: "Tất cả người dùng"
       btn_delete: "Xóa"
       confirm_delete: "Bạn chắc chắn muốn xóa?"
+      following_title: "Đang theo dõi"
+      follower_title: "Người theo dõi"
+      following_count: "<strong id='following' class='stat'>%{count}</strong> đang theo dõi"
+      follower_count: "<strong id='followers' class='stat'>%{count}</strong> người theo dõi"
     signup:
       title: "Đăng ký tài khoản"
       create_my_account: "Tạo tài khoản"

@@ -48,6 +48,8 @@ en:
       active: "Active"
       delete: "Delete"
       post: "Post"
+      follow: "Follow"
+      unfollow: "Unfollow"
     alert:
       image_max_size: "Maximum file size is 5MB. Please choose a smaller file."
 
@@ -96,9 +98,14 @@ en:
     user:
       title: "Show user"
       not_found: "User not found"
+      relation_not_found: "Relationship not found"
       all_user: "All users"
       btn_delete: "Delete"
       confirm_delete: "You sure?"
+      following_title: "Following"
+      follower_title: "Followers"
+      following_count: "<strong id='following' class='stat'>%{count}</strong> following"
+      follower_count: "<strong id='followers' class='stat'>%{count}</strong> followers"
     signup:
       title: "Sign up"
       create_my_account: "Create my account"
