@@ -10,4 +10,13 @@
       </h1>
     </section>
   </aside>
+  <div class="col-md-8">
+    <% if @microposts.any? %>
+      <h3><%= t "pages.microposts.title" %> (<%= @microposts.count %>)</h3>
+      <ol class="microposts">
+        <%= render @microposts %>
+      </ol>
+      <%= raw pagy_nav(@pagy) %>
+    <% end %>
+  </div>
 </div>

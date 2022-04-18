@@ -46,6 +46,10 @@ en:
     button:
       submit: "Submit"
       active: "Active"
+      delete: "Delete"
+      post: "Post"
+    alert:
+      image_max_size: "Maximum file size is 5MB. Please choose a smaller file."
 
   users:
     create:
@@ -68,6 +72,14 @@ en:
       success: "Password has been updated successfully"
       danger: "Password update failed, please try again."
       danger_password: "Please enter a password"
+
+  microposts:
+    create:
+      success: "Successfully created new micropost"
+      danger: "Create new micropost failed"
+    destroy:
+      success: "Micropost deleted"
+      danger: "Delete failed"
 
   pages:
     help:
@@ -111,3 +123,12 @@ en:
       btn_update_password: "Update password"
       expired: "Password reset has expired."
       errors: "An error occurred!"
+    microposts:
+      singular_name: "micropost"
+      title: "Microposts"
+      posted: "Posted:"
+      ago: "ago."
+      invalid: "Micropost invalid"
+      confirm_delete: "You sure?"
+      create_placeholder: "Compose new micropost..."
+      feed: "Micropost Feed"

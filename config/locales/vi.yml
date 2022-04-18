@@ -46,6 +46,10 @@ vi:
     button:
       submit: "Gửi"
       active: "Kích hoạt"
+      delete: "Xóa"
+      post: "Đăng"
+    alert:
+      image_max_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn."
 
   users:
     create:
@@ -62,6 +66,14 @@ vi:
     edit:
       success: "Tài khoản đã được kích hoạt!"
       danger: "Liên kết kích hoạt không hợp lệ"
+
+  microposts:
+    create:
+      success: "Tạo mới micropost thành công"
+      danger: "Tạo mới micropost thất bại"
+    destroy:
+      success: "Đã xóa micropost"
+      danger: "Xóa thất bại"
 
   password_resets:
     update:
@@ -111,3 +123,12 @@ vi:
       btn_update_password: "Cập nhật mật khẩu"
       expired: "Đặt lại mật khẩu đã hết hạn."
       errors: "Có lỗi xảy ra!"
+    microposts:
+      singular_name: "bài post"
+      title: "Số bài post"
+      posted: "Đã đăng:"
+      ago: "trước."
+      invalid: "Micropost không hợp lệ"
+      confirm_delete: "Bạn chắc chắn xóa?"
+      create_placeholder: "Soạn micropost mới..."
+      feed: "Nguồn cấp microposts"
