@@ -1,5 +1,16 @@
 length_8: 8
 length_20: 20
+max_length_140: 140
+
+image_size_50: 50
 image_size_80: 80
+image_max_width_500: 500
+image_max_height_500: 500
+image_megabytes_5: 5
+image_type: ["image/jpeg", "image/gif", "image/png"]
+
+pagy_items_5: 5
 pagy_items_10: 10
+
 expire_2_hours: 2
+
