@@ -7,6 +7,7 @@ class Micropost < ApplicationRecord
   size: {less_than: Settings.image_megabytes_5.megabytes}
 
   scope :recent_posts, ->{order created_at: :desc}
+  scope :post_following, ->(ids){where user_id: ids}
 
   def display_image
     image.variant resize_to_limit: [

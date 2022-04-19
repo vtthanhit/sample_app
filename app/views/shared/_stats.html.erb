@@ -1,0 +1,7 @@
+<% @user ||= current_user %>
+<div class="stats">
+  <%= link_to raw(t("pages.user.following_count", count: @user.following.count)),
+   following_user_path(@user) %>
+  <%= link_to raw(t("pages.user.follower_count", count: @user.followers.count)),
+   followers_user_path(@user) %>
+</div>
